@@ -1,0 +1,20 @@
+Using diff to find bugs makes it easier to localize the search to just the recent changes. However, this only works if a change was introduced to a working application in the first place.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+If we know the history of the file, then we can also know the changes made at that particular point in time.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+The advantage of a manual commit is that you ensure that a logical change that is just right will be saved. The disadvantage is that determining a logical change that should be saved is not cut-and-dried. 
+The advantage of an automatic save is that you don't have to worry about when to save, the disadvantage is that the history will be too cluttered and each commit may not reflect a logical change.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Git is used primarily for code versioning, the source code of an application is usually distributed across multiple files and so it makes sense to allow saving multiple files in one commit. Google Docs, on the other hand, is used to save documents that are not related to each other so each file are treated separately.
+
+How can you use the commands git log and git diff to view the history of files?
+git log allows me to view the history of commits done on the files so far, git diff allows me to view the changes between each commit.
+
+How might using version control make you more confident to make changes that could break something?
+Version control enables a developer to make changes confidently as he can just checkout each commit and check which one has the observable bug.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+I want to use it for my Android Projects.
