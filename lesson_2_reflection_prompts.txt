@@ -3,6 +3,7 @@ Initializing a repository starts the tracking process of the files in the direct
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+Working directory contains all the files in the directory but these files may not be in the repository. Files not in the repository are tagged as "untracked" files when running 'git status'. The repository contains only those tracked files i.e. files that are committed. The staging area allows files to be added to the repository (via commit), with the added benefit of taking out a file in the staging area if it was added by mistake before a commit is made. All files added to the staging area are committed with a commit operation is executed.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
