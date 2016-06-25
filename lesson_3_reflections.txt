@@ -6,3 +6,6 @@ It is to make sure that you control when you want to do the 'pull'. Also this is
 
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 Forks can be used if you want to create a github copy of a github repository you don't have rights to modify. Clone is done to make a local copy of a github repository. Branch is used to create a copy that diverges from the main (master) repository, from which changes can be merged back to the main(master) repository.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+Keeping track of the last known state helps in merging conflicts in commits in the local and remote repositories since this will be the common state to determine the divergence betwen local and remote.
