@@ -9,3 +9,6 @@ Forks can be used if you want to create a github copy of a github repository you
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 Keeping track of the last known state helps in merging conflicts in commits in the local and remote repositories since this will be the common state to determine the divergence betwen local and remote.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+We can use Office 365 or Google Docs. But it would be hard to keep track of the changes that were made and who made the changes. Also, the change is reflected immediately, there's no way to vet the changes.
