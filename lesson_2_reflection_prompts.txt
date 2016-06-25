@@ -7,14 +7,19 @@ Working directory contains all the files in the directory but these files may no
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+We can use a combination of 'git diff' and 'git diff --staged' to make sure of the changes before the commit. The staging area helps us double check a logical change before a commit.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+Branches help me experiment on the current code without affecting the main branch. I have freedom to "fork" try some new stuff without worrying about breaking a perfectly working program.
 
 How do the diagrams help you visualize the branch structure?
+The branch diagrams show at which point the code diverges from the master.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+Merging two branches together results in a combined code with all commits in both branches maintained. This is represented like so in the diagram because it merges all the commits from the point of divergence in both branches.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+Git's automatic merge is great when there are no conflicts, but this is not usually the case. Projects will always have merge conflicts due to the scope and number of developers working on it. Merging manually takes some time since you have to understand the changes made by the other party. Hopefully, this process will become faster once more experience is gained doing manual merges.
